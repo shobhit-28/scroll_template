@@ -1,0 +1,35 @@
+/* to increase size of srollbar on hover
+:hover::-webkit-scrollbar{
+    width: 10px;
+    transition: 20s;
+} */
+
+/* ::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #404258;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #0F3460;
+    width: 15px;
+} */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #16003B;
+}
